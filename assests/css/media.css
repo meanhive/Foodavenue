@@ -1,0 +1,170 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+   height: 110px;
+}
+
+.logo {
+    width: 55%;
+}
+
+.lm {
+    position: relative;
+    top: 30px;
+}
+
+.lm ul li a {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.lm ul li a:hover {
+        color: rgba(255, 166, 0, 0.925);
+}
+
+.lm ul li a:hover, .lm ul li a:active , .active{
+    border: 2px dashed rgba(255, 166, 0, 0.925);
+}
+
+.lm ul li .tel {
+    border: 2px dashed rgb(128, 0, 0);
+    color: rgb(128, 0, 0);
+}
+
+    /* Section 1 */
+
+.s1 {
+    width: 99.5%;
+    height:400px;
+    background: url('../images/top.jpg') center center;
+    background-repeat: no-repeat;
+    margin-top: -48px !important;
+}
+
+.s1 h1 {
+    position: relative;
+    top: 130px;
+    left:80px;
+    font-size:5.5em;
+    font-family: cursive;
+}
+    /* Section  2 */
+.s2 {
+    height: 400px;
+    padding: 10px;
+}
+
+.s2-1 {
+    position: relative;
+    top: 60px;
+    left: -22px;
+    text-align: justify;
+}
+
+.s2-1 .title {
+    text-transform: uppercase;
+    color: rgba(255, 166, 0, 0.925);
+    font-weight: 700;
+}
+
+.s2-1 hr {
+    border: 2px dashed rgba(255, 166, 0, 0.925);
+}
+
+    /* section 2 ends */
+
+.s3 {
+    height: 400px;
+    background: url('../images/footer.png') center center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+    width: 99.5%;
+}
+
+.s3 img {
+    position: relative;
+    top: 50px; 
+}
+
+/* section 3 ends */
+
+
+.s4 img {
+    position: relative;
+    top:50px;
+}
+
+/*  section 4 ends */
+
+.subscription {
+    height:100px;
+    background: url('../images/subscription.jpg')
+}
+
+.subscription form {
+    position: relative;
+    top: 35px;
+    left:-12px;
+}
+
+/*  subscription ends */
+
+.footer {
+    height: 400px;
+    background: url('../images/footer.png') center;
+}
+
+.footer  .list-group  .list-group-item {
+    background:transparent;
+    border: none;
+    margin-top: -15px !important;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.list-group a:hover {
+    color: rgba(255, 166, 0, 0.925);
+}
+
+.footer h4, h6 {
+    font-weight: bolder;
+
+}
+
+.footer .footer-top {
+    position: relative;
+    top: 30px;
+}
+
+.map {
+    position: relative;
+    left: 0px;
+    top: 60px;
+}
+
+    /* Instructions page */
+.instr {
+    height: 600px;
+    
+}
+
+.instr ol li {
+    font-size: 1.1em;
+}
+
+/* media page */
+
+.m1 {
+    height: 600px;
+    margin-top:-1px !important;
+}
+
